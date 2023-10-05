@@ -192,7 +192,7 @@ class EditPageSobreScreen extends StatelessWidget {
                                     Padding(
                                         padding: EdgeInsets.only(
                                             top: 8.v, bottom: 9.v),
-                                        child: Text("ás",
+                                        child: Text("até",
                                             style: theme.textTheme.bodyLarge)),
                                     DropdownButton<String>(
                                       value: dropdownItemList1[0],
