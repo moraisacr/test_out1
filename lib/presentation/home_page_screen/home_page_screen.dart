@@ -34,13 +34,13 @@ class HomePageScreen extends StatelessWidget {
       case BottomBarEnum.Locationonerror:
         return AppRoutes.atividadesAdmTabContainerPage;
       case BottomBarEnum.Search:
-        return "/";
+        return AppRoutes.atividadesAdmTabContainerPage;
       case BottomBarEnum.Notification:
-        return "/";
+        return AppRoutes.atividadesAdmTabContainerPage;
       case BottomBarEnum.Mail:
-        return "/";
+        return AppRoutes.atividadesAdmTabContainerPage;
       default:
-        return "/";
+        return AppRoutes.atividadesAdmTabContainerPage;
     }
   }
 
